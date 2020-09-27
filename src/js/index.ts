@@ -23,3 +23,20 @@ while(lop.length>0)
 {
     lop[0].className ="healthy"
 }
+let pElement:HTMLLIElement = <HTMLLIElement> document.getElementById("1").parentNode;
+console.log(pElement);
+
+let d = document.getElementById('list');
+console.log(d.firstElementChild.classList.replace("unhealthy", "healthy"))
+console.log(d.lastElementChild.classList.replace("healthy", "unhealthy"))
+
+let node = document.createElement("li")
+let textnode = document.createTextNode("Strawberries")
+node.setAttribute("id","novy")
+node.classList.add("healthy")
+node.appendChild(textnode)
+document.getElementById("list").appendChild(node)
+
+
+
+
