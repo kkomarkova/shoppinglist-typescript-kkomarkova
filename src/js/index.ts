@@ -54,8 +54,7 @@ let newList:HTMLCollectionOf<HTMLLIElement> =
 var list = document.getElementById("list")
 list.removeChild(list.childNodes[0]);
 
-
-
+// Add thing to the list
 
 
 
