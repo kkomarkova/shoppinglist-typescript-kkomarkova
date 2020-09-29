@@ -49,10 +49,12 @@ u.insertBefore(n, u.childNodes[0]);
 //Move a node
 let newList:HTMLCollectionOf<HTMLLIElement> =
     <HTMLCollectionOf<HTMLLIElement>> document.getElementsByClassName("unhealthy");
-    
+
 // Delete element in the list
 var list = document.getElementById("list")
 list.removeChild(list.childNodes[0]);
+
+
 
 
 
