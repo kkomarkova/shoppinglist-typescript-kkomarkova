@@ -55,7 +55,11 @@ var list = document.getElementById("list")
 list.removeChild(list.childNodes[0]);
 
 // Add thing to the list
-
+document.getElementById("addbutton").addEventListener("click", displayDate);
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+  }
+  
 
 
 
